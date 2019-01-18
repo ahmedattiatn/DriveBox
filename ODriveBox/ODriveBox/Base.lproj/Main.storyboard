@@ -21,7 +21,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0JM-Rt-ey3" customClass="CustomCardView" customModule="ODriveBox" customModuleProvider="target">
                                 <rect key="frame" x="10" y="145" width="355" height="618"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bb1-oC-HG6">
+                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bb1-oC-HG6">
                                         <rect key="frame" x="0.0" y="0.0" width="355" height="618"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fill 4" translatesAutoresizingMaskIntoConstraints="NO" id="3jJ-Ny-6K1">
@@ -151,6 +151,7 @@
                         <outlet property="backBarButton" destination="JKf-J0-tng" id="sD2-yN-ihn"/>
                         <outlet property="driveFilesTableView" destination="Ysa-5H-0Cc" id="8vu-7m-KpH"/>
                         <outlet property="loaderIndicator" destination="Cnp-u7-kPI" id="8gq-EK-uz2"/>
+                        <outlet property="noDataErrorView" destination="Bb1-oC-HG6" id="VBs-uO-2B3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

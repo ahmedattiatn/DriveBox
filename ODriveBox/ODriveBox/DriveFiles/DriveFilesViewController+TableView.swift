@@ -32,7 +32,15 @@ extension DriveFilesViewController: UITableViewDelegate, UITableViewDataSource {
             // save the Current parent ID in the List so we can navigate Back
             listParentID.append(currentFile.parentId)
             showOrHideBackBarItem()
+            animateDriveFilesTableView()
+            
+        }
+    }
+    
+    func animateDriveFilesTableView() {
+        driveFilesTableView.alpha = 0
+        UIView.animate(withDuration: 0.3) {
+            self.driveFilesTableView.alpha = 1
         }
     }
 }
-

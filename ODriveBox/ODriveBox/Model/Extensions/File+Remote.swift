@@ -26,6 +26,7 @@ extension File {
         else {
             link  = DataLinks.PARENT_DIR_URL
         }
+        print("link --> ",link)
         // Request for data using Get Method
         Alamofire.request(
             URL(string: link)!,
@@ -52,6 +53,7 @@ extension File {
                     completion(SaveCompletion(false, ErrorStatus.none))
                     return
                 }
+                print("ResponseData ---> ",responseData)
                 // Send Data to Be Parsed And Save
                 if let _ = id {
                     File.updateLocalDataFilesFromDrive(JSON(responseData), completion: { (saveCompletion) in

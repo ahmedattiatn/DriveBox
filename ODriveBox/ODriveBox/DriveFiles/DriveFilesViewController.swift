@@ -14,6 +14,7 @@ class DriveFilesViewController: UIViewController {
     @IBOutlet weak var driveFilesTableView: UITableView!
     @IBOutlet weak var backBarButton: UIBarButtonItem!
     @IBOutlet weak var loaderIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var noDataErrorView: UIView!
     
     // MARK: - Proprities
     var listParentID = [String]()
@@ -42,6 +43,7 @@ class DriveFilesViewController: UIViewController {
             if success {
                 print("Fetching Files Data With Success...")
                 self.driveFilesTableView.isHidden = false
+                self.noDataErrorView.isHidden = true
                 //Refresh the TableView with the new Content
                 self.driveFilesTableView.reloadData()
             }else{
@@ -49,6 +51,7 @@ class DriveFilesViewController: UIViewController {
                     print("Failure while Fetching Files Data Data...",error)
                     // Display a Custom View when no data Found
                     self.driveFilesTableView.isHidden = true
+                    self.noDataErrorView.isHidden = false
                 }
             }
             self.loaderIndicator.stopAnimating()
@@ -71,6 +74,7 @@ class DriveFilesViewController: UIViewController {
         if !listParentID.isEmpty, let id = listParentID.last {
             listParentID.removeLast()
             updatelFilesFromRemoteWith(id)
+            animateDriveFilesTableView()
         }
     }
 }
