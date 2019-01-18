@@ -1,0 +1,12 @@
+CMD Server GO
+
+
+./OodriveInterviewServer_osx_x64 -path ~/Desktop/
+
+
+
+
+http://noel:foobar@localhost:8080/me
+
+
+http://noel:foobar@localhost:8080/items/6155a4d4bac211c8885e79847c0cc2c9900b22fa

@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08007F3488BAD5A8478EA73A /* Pods_ODriveBoxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 779E90B6641E956B242010B2 /* Pods_ODriveBoxUITests.framework */; };
+		333A620CC1FE9134CA1C6478 /* Pods_ODriveBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139201E69FD527005066B79A /* Pods_ODriveBox.framework */; };
+		664BD3B521E0C16E00B5868A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664BD3B421E0C16E00B5868A /* AppDelegate.swift */; };
+		664BD3BA21E0C16E00B5868A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 664BD3B821E0C16E00B5868A /* Main.storyboard */; };
+		664BD3BC21E0C16F00B5868A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664BD3BB21E0C16F00B5868A /* Assets.xcassets */; };
+		664BD3BF21E0C16F00B5868A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 664BD3BD21E0C16F00B5868A /* LaunchScreen.storyboard */; };
+		664BD3CA21E0C16F00B5868A /* ODriveBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664BD3C921E0C16F00B5868A /* ODriveBoxTests.swift */; };
+		664BD3D521E0C16F00B5868A /* ODriveBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664BD3D421E0C16F00B5868A /* ODriveBoxUITests.swift */; };
+		664BD3E421E0C22100B5868A /* DisclaimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664BD3E321E0C22100B5868A /* DisclaimerViewController.swift */; };
+		664BD3E921E0C28A00B5868A /* File+Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664BD3E821E0C28A00B5868A /* File+Remote.swift */; };
+		664BD3EB21E0C2A200B5868A /* File+DataAcces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664BD3EA21E0C2A200B5868A /* File+DataAcces.swift */; };
+		664BD3ED21E0C2B300B5868A /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664BD3EC21E0C2B300B5868A /* File.swift */; };
+		664BD3F021E0C32600B5868A /* CustomCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664BD3EF21E0C32600B5868A /* CustomCardView.swift */; };
+		664BD3F221E0C33E00B5868A /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664BD3F121E0C33E00B5868A /* Connectivity.swift */; };
+		664BD3F421E0C35400B5868A /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664BD3F321E0C35400B5868A /* Utility.swift */; };
+		664BD3F621E0C36900B5868A /* DataLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664BD3F521E0C36900B5868A /* DataLinks.swift */; };
+		664BD3F921E0C3E700B5868A /* DriveFilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664BD3F821E0C3E700B5868A /* DriveFilesViewController.swift */; };
+		664BD3FB21E0C40700B5868A /* DriveFilesViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664BD3FA21E0C40700B5868A /* DriveFilesViewController+TableView.swift */; };
+		664BD3FD21E0C42500B5868A /* DriveFilesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664BD3FC21E0C42500B5868A /* DriveFilesTableViewCell.swift */; };
+		E55F892453FC82E0F1FA5296 /* Pods_ODriveBoxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DD3731F9380D7277D34F1B /* Pods_ODriveBoxTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		664BD3C621E0C16F00B5868A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 664BD3A921E0C16E00B5868A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 664BD3B021E0C16E00B5868A;
+			remoteInfo = ODriveBox;
+		};
+		664BD3D121E0C16F00B5868A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 664BD3A921E0C16E00B5868A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 664BD3B021E0C16E00B5868A;
+			remoteInfo = ODriveBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		139201E69FD527005066B79A /* Pods_ODriveBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ODriveBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19DD3731F9380D7277D34F1B /* Pods_ODriveBoxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ODriveBoxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C4B3EE19843E26E441852C /* Pods-ODriveBoxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODriveBoxTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ODriveBoxTests/Pods-ODriveBoxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		436519D3EE465773B38CB373 /* Pods-ODriveBoxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODriveBoxUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ODriveBoxUITests/Pods-ODriveBoxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		664BD3B121E0C16E00B5868A /* ODriveBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ODriveBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		664BD3B421E0C16E00B5868A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		664BD3B921E0C16E00B5868A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		664BD3BB21E0C16F00B5868A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		664BD3BE21E0C16F00B5868A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		664BD3C021E0C16F00B5868A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		664BD3C521E0C16F00B5868A /* ODriveBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ODriveBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		664BD3C921E0C16F00B5868A /* ODriveBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODriveBoxTests.swift; sourceTree = "<group>"; };
+		664BD3CB21E0C16F00B5868A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		664BD3D021E0C16F00B5868A /* ODriveBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ODriveBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		664BD3D421E0C16F00B5868A /* ODriveBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODriveBoxUITests.swift; sourceTree = "<group>"; };
+		664BD3D621E0C16F00B5868A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		664BD3E321E0C22100B5868A /* DisclaimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerViewController.swift; sourceTree = "<group>"; };
+		664BD3E821E0C28A00B5868A /* File+Remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "File+Remote.swift"; sourceTree = "<group>"; };
+		664BD3EA21E0C2A200B5868A /* File+DataAcces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "File+DataAcces.swift"; sourceTree = "<group>"; };
+		664BD3EC21E0C2B300B5868A /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		664BD3EF21E0C32600B5868A /* CustomCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCardView.swift; sourceTree = "<group>"; };
+		664BD3F121E0C33E00B5868A /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		664BD3F321E0C35400B5868A /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		664BD3F521E0C36900B5868A /* DataLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLinks.swift; sourceTree = "<group>"; };
+		664BD3F821E0C3E700B5868A /* DriveFilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveFilesViewController.swift; sourceTree = "<group>"; };
+		664BD3FA21E0C40700B5868A /* DriveFilesViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DriveFilesViewController+TableView.swift"; sourceTree = "<group>"; };
+		664BD3FC21E0C42500B5868A /* DriveFilesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveFilesTableViewCell.swift; sourceTree = "<group>"; };
+		6A0FF557095A4B268698E8AD /* Pods-ODriveBoxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODriveBoxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ODriveBoxTests/Pods-ODriveBoxTests.release.xcconfig"; sourceTree = "<group>"; };
+		779E90B6641E956B242010B2 /* Pods_ODriveBoxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ODriveBoxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8EDC698E5090E86A58A8032 /* Pods-ODriveBoxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODriveBoxUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ODriveBoxUITests/Pods-ODriveBoxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C8EBF25635EE18BF0C379B8C /* Pods-ODriveBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODriveBox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ODriveBox/Pods-ODriveBox.debug.xcconfig"; sourceTree = "<group>"; };
+		DBBA64AFFE99AA0267078592 /* Pods-ODriveBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODriveBox.release.xcconfig"; path = "Pods/Target Support Files/Pods-ODriveBox/Pods-ODriveBox.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		664BD3AE21E0C16E00B5868A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333A620CC1FE9134CA1C6478 /* Pods_ODriveBox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664BD3C221E0C16F00B5868A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55F892453FC82E0F1FA5296 /* Pods_ODriveBoxTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664BD3CD21E0C16F00B5868A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08007F3488BAD5A8478EA73A /* Pods_ODriveBoxUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25385FBE3377F421EAE2DBF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				139201E69FD527005066B79A /* Pods_ODriveBox.framework */,
+				19DD3731F9380D7277D34F1B /* Pods_ODriveBoxTests.framework */,
+				779E90B6641E956B242010B2 /* Pods_ODriveBoxUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		664BD3A821E0C16E00B5868A = {
+			isa = PBXGroup;
+			children = (
+				664BD3B321E0C16E00B5868A /* ODriveBox */,
+				664BD3C821E0C16F00B5868A /* ODriveBoxTests */,
+				664BD3D321E0C16F00B5868A /* ODriveBoxUITests */,
+				664BD3B221E0C16E00B5868A /* Products */,
+				9452FB837D877C9C4DA46C1C /* Pods */,
+				25385FBE3377F421EAE2DBF2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		664BD3B221E0C16E00B5868A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				664BD3B121E0C16E00B5868A /* ODriveBox.app */,
+				664BD3C521E0C16F00B5868A /* ODriveBoxTests.xctest */,
+				664BD3D021E0C16F00B5868A /* ODriveBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		664BD3B321E0C16E00B5868A /* ODriveBox */ = {
+			isa = PBXGroup;
+			children = (
+				664BD3B421E0C16E00B5868A /* AppDelegate.swift */,
+				664BD3EE21E0C30500B5868A /* Common */,
+				664BD3E521E0C24500B5868A /* Model */,
+				664BD3E221E0C19900B5868A /* Disclaimer */,
+				664BD3F721E0C3B900B5868A /* DriveFiles */,
+				664BD3B821E0C16E00B5868A /* Main.storyboard */,
+				664BD3BB21E0C16F00B5868A /* Assets.xcassets */,
+				664BD3BD21E0C16F00B5868A /* LaunchScreen.storyboard */,
+				664BD3C021E0C16F00B5868A /* Info.plist */,
+			);
+			path = ODriveBox;
+			sourceTree = "<group>";
+		};
+		664BD3C821E0C16F00B5868A /* ODriveBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				664BD3C921E0C16F00B5868A /* ODriveBoxTests.swift */,
+				664BD3CB21E0C16F00B5868A /* Info.plist */,
+			);
+			path = ODriveBoxTests;
+			sourceTree = "<group>";
+		};
+		664BD3D321E0C16F00B5868A /* ODriveBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				664BD3D421E0C16F00B5868A /* ODriveBoxUITests.swift */,
+				664BD3D621E0C16F00B5868A /* Info.plist */,
+			);
+			path = ODriveBoxUITests;
+			sourceTree = "<group>";
+		};
+		664BD3E221E0C19900B5868A /* Disclaimer */ = {
+			isa = PBXGroup;
+			children = (
+				664BD3E321E0C22100B5868A /* DisclaimerViewController.swift */,
+			);
+			path = Disclaimer;
+			sourceTree = "<group>";
+		};
+		664BD3E521E0C24500B5868A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				664BD3E721E0C26200B5868A /* Extensions */,
+				664BD3E621E0C25500B5868A /* Entities */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		664BD3E621E0C25500B5868A /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				664BD3EC21E0C2B300B5868A /* File.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		664BD3E721E0C26200B5868A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				664BD3E821E0C28A00B5868A /* File+Remote.swift */,
+				664BD3EA21E0C2A200B5868A /* File+DataAcces.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		664BD3EE21E0C30500B5868A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				664BD3EF21E0C32600B5868A /* CustomCardView.swift */,
+				664BD3F121E0C33E00B5868A /* Connectivity.swift */,
+				664BD3F321E0C35400B5868A /* Utility.swift */,
+				664BD3F521E0C36900B5868A /* DataLinks.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		664BD3F721E0C3B900B5868A /* DriveFiles */ = {
+			isa = PBXGroup;
+			children = (
+				664BD3F821E0C3E700B5868A /* DriveFilesViewController.swift */,
+				664BD3FA21E0C40700B5868A /* DriveFilesViewController+TableView.swift */,
+				664BD3FC21E0C42500B5868A /* DriveFilesTableViewCell.swift */,
+			);
+			path = DriveFiles;
+			sourceTree = "<group>";
+		};
+		9452FB837D877C9C4DA46C1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8EBF25635EE18BF0C379B8C /* Pods-ODriveBox.debug.xcconfig */,
+				DBBA64AFFE99AA0267078592 /* Pods-ODriveBox.release.xcconfig */,
+				20C4B3EE19843E26E441852C /* Pods-ODriveBoxTests.debug.xcconfig */,
+				6A0FF557095A4B268698E8AD /* Pods-ODriveBoxTests.release.xcconfig */,
+				436519D3EE465773B38CB373 /* Pods-ODriveBoxUITests.debug.xcconfig */,
+				B8EDC698E5090E86A58A8032 /* Pods-ODriveBoxUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		664BD3B021E0C16E00B5868A /* ODriveBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664BD3D921E0C16F00B5868A /* Build configuration list for PBXNativeTarget "ODriveBox" */;
+			buildPhases = (
+				A43D940EA9551ECE141866AA /* [CP] Check Pods Manifest.lock */,
+				664BD3AD21E0C16E00B5868A /* Sources */,
+				664BD3AE21E0C16E00B5868A /* Frameworks */,
+				664BD3AF21E0C16E00B5868A /* Resources */,
+				1081BCCEF8D943FF07CD79B0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ODriveBox;
+			productName = ODriveBox;
+			productReference = 664BD3B121E0C16E00B5868A /* ODriveBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		664BD3C421E0C16F00B5868A /* ODriveBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664BD3DC21E0C16F00B5868A /* Build configuration list for PBXNativeTarget "ODriveBoxTests" */;
+			buildPhases = (
+				E144F82E38B495A7AD4AAA5D /* [CP] Check Pods Manifest.lock */,
+				664BD3C121E0C16F00B5868A /* Sources */,
+				664BD3C221E0C16F00B5868A /* Frameworks */,
+				664BD3C321E0C16F00B5868A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				664BD3C721E0C16F00B5868A /* PBXTargetDependency */,
+			);
+			name = ODriveBoxTests;
+			productName = ODriveBoxTests;
+			productReference = 664BD3C521E0C16F00B5868A /* ODriveBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		664BD3CF21E0C16F00B5868A /* ODriveBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664BD3DF21E0C16F00B5868A /* Build configuration list for PBXNativeTarget "ODriveBoxUITests" */;
+			buildPhases = (
+				0B6F81A5E6E58700EEBD2AE7 /* [CP] Check Pods Manifest.lock */,
+				664BD3CC21E0C16F00B5868A /* Sources */,
+				664BD3CD21E0C16F00B5868A /* Frameworks */,
+				664BD3CE21E0C16F00B5868A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				664BD3D221E0C16F00B5868A /* PBXTargetDependency */,
+			);
+			name = ODriveBoxUITests;
+			productName = ODriveBoxUITests;
+			productReference = 664BD3D021E0C16F00B5868A /* ODriveBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		664BD3A921E0C16E00B5868A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ahmed ATIA";
+				TargetAttributes = {
+					664BD3B021E0C16E00B5868A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					664BD3C421E0C16F00B5868A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 664BD3B021E0C16E00B5868A;
+					};
+					664BD3CF21E0C16F00B5868A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 664BD3B021E0C16E00B5868A;
+					};
+				};
+			};
+			buildConfigurationList = 664BD3AC21E0C16E00B5868A /* Build configuration list for PBXProject "ODriveBox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 664BD3A821E0C16E00B5868A;
+			productRefGroup = 664BD3B221E0C16E00B5868A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				664BD3B021E0C16E00B5868A /* ODriveBox */,
+				664BD3C421E0C16F00B5868A /* ODriveBoxTests */,
+				664BD3CF21E0C16F00B5868A /* ODriveBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		664BD3AF21E0C16E00B5868A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664BD3BF21E0C16F00B5868A /* LaunchScreen.storyboard in Resources */,
+				664BD3BC21E0C16F00B5868A /* Assets.xcassets in Resources */,
+				664BD3BA21E0C16E00B5868A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664BD3C321E0C16F00B5868A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664BD3CE21E0C16F00B5868A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B6F81A5E6E58700EEBD2AE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ODriveBoxUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1081BCCEF8D943FF07CD79B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ODriveBox/Pods-ODriveBox-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ODriveBox/Pods-ODriveBox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A43D940EA9551ECE141866AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ODriveBox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E144F82E38B495A7AD4AAA5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ODriveBoxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		664BD3AD21E0C16E00B5868A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664BD3FB21E0C40700B5868A /* DriveFilesViewController+TableView.swift in Sources */,
+				664BD3ED21E0C2B300B5868A /* File.swift in Sources */,
+				664BD3F421E0C35400B5868A /* Utility.swift in Sources */,
+				664BD3B521E0C16E00B5868A /* AppDelegate.swift in Sources */,
+				664BD3F021E0C32600B5868A /* CustomCardView.swift in Sources */,
+				664BD3F921E0C3E700B5868A /* DriveFilesViewController.swift in Sources */,
+				664BD3F221E0C33E00B5868A /* Connectivity.swift in Sources */,
+				664BD3EB21E0C2A200B5868A /* File+DataAcces.swift in Sources */,
+				664BD3FD21E0C42500B5868A /* DriveFilesTableViewCell.swift in Sources */,
+				664BD3F621E0C36900B5868A /* DataLinks.swift in Sources */,
+				664BD3E421E0C22100B5868A /* DisclaimerViewController.swift in Sources */,
+				664BD3E921E0C28A00B5868A /* File+Remote.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664BD3C121E0C16F00B5868A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664BD3CA21E0C16F00B5868A /* ODriveBoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664BD3CC21E0C16F00B5868A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664BD3D521E0C16F00B5868A /* ODriveBoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		664BD3C721E0C16F00B5868A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 664BD3B021E0C16E00B5868A /* ODriveBox */;
+			targetProxy = 664BD3C621E0C16F00B5868A /* PBXContainerItemProxy */;
+		};
+		664BD3D221E0C16F00B5868A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 664BD3B021E0C16E00B5868A /* ODriveBox */;
+			targetProxy = 664BD3D121E0C16F00B5868A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		664BD3B821E0C16E00B5868A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664BD3B921E0C16E00B5868A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		664BD3BD21E0C16F00B5868A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664BD3BE21E0C16F00B5868A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		664BD3D721E0C16F00B5868A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		664BD3D821E0C16F00B5868A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		664BD3DA21E0C16F00B5868A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8EBF25635EE18BF0C379B8C /* Pods-ODriveBox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ODriveBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ahmed.ODriveBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		664BD3DB21E0C16F00B5868A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBBA64AFFE99AA0267078592 /* Pods-ODriveBox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ODriveBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ahmed.ODriveBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		664BD3DD21E0C16F00B5868A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20C4B3EE19843E26E441852C /* Pods-ODriveBoxTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ODriveBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ahmed.ODriveBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ODriveBox.app/ODriveBox";
+			};
+			name = Debug;
+		};
+		664BD3DE21E0C16F00B5868A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A0FF557095A4B268698E8AD /* Pods-ODriveBoxTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ODriveBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ahmed.ODriveBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ODriveBox.app/ODriveBox";
+			};
+			name = Release;
+		};
+		664BD3E021E0C16F00B5868A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 436519D3EE465773B38CB373 /* Pods-ODriveBoxUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ODriveBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ahmed.ODriveBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ODriveBox;
+			};
+			name = Debug;
+		};
+		664BD3E121E0C16F00B5868A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8EDC698E5090E86A58A8032 /* Pods-ODriveBoxUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ODriveBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ahmed.ODriveBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ODriveBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		664BD3AC21E0C16E00B5868A /* Build configuration list for PBXProject "ODriveBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664BD3D721E0C16F00B5868A /* Debug */,
+				664BD3D821E0C16F00B5868A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		664BD3D921E0C16F00B5868A /* Build configuration list for PBXNativeTarget "ODriveBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664BD3DA21E0C16F00B5868A /* Debug */,
+				664BD3DB21E0C16F00B5868A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		664BD3DC21E0C16F00B5868A /* Build configuration list for PBXNativeTarget "ODriveBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664BD3DD21E0C16F00B5868A /* Debug */,
+				664BD3DE21E0C16F00B5868A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		664BD3DF21E0C16F00B5868A /* Build configuration list for PBXNativeTarget "ODriveBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664BD3E021E0C16F00B5868A /* Debug */,
+				664BD3E121E0C16F00B5868A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 664BD3A921E0C16E00B5868A /* Project object */;
+}
